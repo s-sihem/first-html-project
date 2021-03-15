@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon Premier Formulaire</title>
+	<style type="text/css">
+		body{
+			background: #edd9a6 ;
+			margin-left: 10% ;
+			margin-right: 10% ;
+			border: 2px dotted black ;
+			padding: 10px 10px 10px 10px ;
+			font-family: sans-serif; 
+		}
+	</style>
+</head>
+<body>
+<h1>Votre Avis Nous Interesse</h1>
+<table border="0" width="100%">
+<td>
+<form>
+	<fieldset>
+		<legend>Information Personnelles</legend>
+		<ol>
+			<li>Nom<input type="text" name="" required=""></li>
+			<li>Date de naissance<input type="date" name="" required=""></li>
+			<li>Site<input type="site" name="" placeholder="http://monsite.com" required=""></li>
+			<li>Emploi<input type="text" name="" required=""></li>
+			<li>Approx.Salaire annuel <br><input type="number" name="" placeholder="$" required=""></li>
+		</ol>
+	</fieldset>
+</form>
+</td>
+<td>
+	<form>
+	<fieldset>
+		<legend>Information de Contact</legend>
+		<ol>
+			<li>Adresse ligne 1 <br><input type="adresse" name=""  required=""></li>
+			<li>Adresse ligne 2<br><input type="adresse" name="" required=""></li>
+			<li>Pays<input type="text" name="" required=""></li>
+			<li>Tel<input type="Tel" name="" required="" placeholder="eg:= +21367..."> </li>
+			<li>Courriel <input type="email" name="" required=""></li>
+		</ol>
+	</fieldset>
+</form>
+</td>
+</table>
+<h1>Préférences</h1>
+<div>
+ Choisir une couleur <input type="color" name="" value="black" required=""><br>
+</div>
+<div>
+Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5? <input type="range" name="" required=""><br><br><input type="submit" name="">
+</div>
+</body>
+</html>
